@@ -1,6 +1,8 @@
 *.env
 *.DS_Store
 
+*npm-debug.log
+
 # compiled output
 dist
 tmp
