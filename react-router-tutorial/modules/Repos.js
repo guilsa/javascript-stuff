@@ -10,7 +10,7 @@ export default React.createClass({
 
         {/* add some links */}
         <ul>
-          <li><Link to="/repos/rackt/react-router">React Router</Link></li>
+          <li><Link to="/repos/react/react-router">React Router</Link></li>
           <li><Link to="/repos/facebook/react">React</Link></li>
         </ul>
 
