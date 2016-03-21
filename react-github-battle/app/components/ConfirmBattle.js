@@ -16,12 +16,10 @@ var ConfirmBattle = function(props){
         <div className='col-sm-8 col-sm-offset-2'>
           <div className="col-sm-6">
             <p className="lead">Player 1</p>
-            PLAYER 1 INFO
             <UserDetails info={props.playersInfo[0]} />
           </div>
           <div className="col-sm-6">
             <p className="lead">Player 2</p>
-            PLAYER 2 INFO
             <UserDetails info={props.playersInfo[1]} />
           </div>
         </div>
