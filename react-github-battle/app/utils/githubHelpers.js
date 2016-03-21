@@ -1,3 +1,5 @@
+var axios = require('axios');
+
 var helpers = {
   getPlayersInfo: function() {
     // fetch some data from github
