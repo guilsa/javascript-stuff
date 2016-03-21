@@ -5,6 +5,7 @@ function UserDetailsWrapper (props) {
   return (
     <div className="col-sm-6">
       <p className="lead">Player 1</p>
+      {props.children}
     </div>
   )
 }
