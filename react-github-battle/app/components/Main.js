@@ -1,4 +1,5 @@
 var React = require('react');
+require('../main.css');
 
 var Main = React.createClass({
   render: function(){
