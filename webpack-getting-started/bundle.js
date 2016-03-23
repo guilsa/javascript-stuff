@@ -47,6 +47,7 @@
 	__webpack_require__(1);
 	document.write("it works.");
 	document.write(__webpack_require__(5));
+	document.write("webpack watch is working too.");
 
 
 /***/ },
