@@ -1,7 +1,7 @@
 var React = require('react');
 
 var styles = {
-  containers: {
+  container: {
     position: 'fixed',
     left: 0,
     right: 0,
@@ -32,19 +32,20 @@ var Loading = React.createClass({
           text: this.originaltext
         })
       } else {
-        this.setstate({
-          text: this.originaltext + "."
+        this.setState({
+          text: this.state.text + "."
         })
       }
-    }.bind(this), 300);
+    }.bind(this), 300)
   },
-  componentWillMount: function () {
+  componentWillUnmount: function () {
     clearInterval(this.interval);
   },
   render: function(){
     return (
-      <div styles={styles.container}></div>
-      <p styles={styles.container}>{this.state.text}</p>
+      <div style={styles.container}>
+        <p style={styles.content}>{this.state.text}</p>
+      </div>
     )
   }
 })
