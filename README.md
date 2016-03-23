@@ -10,3 +10,4 @@ Very simple programs to explore potential solutions or figure out answers to tou
 * [React github battle](/react-github-battle): [@tylermcginnis33's](https://twitter.com/tylermcginnis33) wonderful [reactjsprogram.com](http://www.reactjsprogram.com/) course.
 * [Socket.io chat](/socket-io-chat): very cool tutorial over at [socket.io](http://socket.io/get-started/chat/).
 * [MongoDB on Heroku](/mongo-express-test): attaining production-ready data persistence via Express and Mongoose.
+* [Webpack getting started](/webpack-getting-started): having an issue getting started with a React app, running through Webpack's [official tutorial](https://webpack.github.io/docs/tutorials/getting-started/) to understand it better.
