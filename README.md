@@ -11,3 +11,4 @@ Very simple programs to explore potential solutions or figure out answers to tou
 * [Socket.io chat](/socket-io-chat): very cool tutorial over at [socket.io](http://socket.io/get-started/chat/).
 * [MongoDB on Heroku](/mongo-express-test): attaining production-ready data persistence via Express and Mongoose.
 * [Webpack getting started](/webpack-getting-started): having an issue getting started with a React app, running through Webpack's [official tutorial](https://webpack.github.io/docs/tutorials/getting-started/) to understand it better.
+* [React Demo](/react-demos): I recommend doing this before or after either before or after React Github Battle. Probably the best resource out there for extremely simple and well write demos. There are 13 of them, no cloning required, just read the walkthroughs.
