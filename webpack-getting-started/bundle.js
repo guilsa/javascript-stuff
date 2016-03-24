@@ -85,7 +85,7 @@
 
 
 	// module
-	exports.push([module.id, "body {\n  background: yellow;\n}\n", ""]);
+	exports.push([module.id, "body {\n  background: yellow;\n  background: url(" + __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./pattern.svg\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())) + ")\n}\n", ""]);
 
 	// exports
 
