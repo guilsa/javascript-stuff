@@ -1,5 +1,5 @@
-var React = require('React');
-var Prompt = require('../components/Prompt');
+import React from 'react'
+import Prompt from '../components/Prompt'
 
 var PromptContainer = React.createClass({
   contextTypes: {
@@ -47,4 +47,4 @@ var PromptContainer = React.createClass({
   }
 });
 
-module.exports = PromptContainer;
+export default PromptContainer

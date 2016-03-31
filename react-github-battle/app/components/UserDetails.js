@@ -1,5 +1,4 @@
-var React = require('react');
-var PropTypes = React.PropTypes
+import React, { PropTypes } from 'react'
 
 function UserDetails (user) {
   return (
@@ -33,4 +32,4 @@ UserDetails.propTypes = {
   })
 }
 
-module.exports = UserDetails;
+export default UserDetails
