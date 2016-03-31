@@ -36,7 +36,7 @@ const Loading = React.createClass({
   },
   componentDidMount () {
     const stopper = this.originaltext + "...";
-    this.interval = setInterval(function(){
+    this.interval = setInterval(() => {
       if (this.state.text === stopper) {
         this.setState({
           text: this.originaltext
@@ -46,7 +46,7 @@ const Loading = React.createClass({
           text: this.state.text + "."
         })
       }
-    }.bind(this), this.props.speed)
+    }, this.props.speed)
   },
   componentWillUnmount () {
     clearInterval(this.interval);
