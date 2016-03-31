@@ -16,12 +16,12 @@ function StartOver (){
   )
 }
 
-function Results (props) {
-  if (props.isLoading === true) {
+function Results ({isLoading, scores, playersInfo}) {
+  if (isLoading === true) {
     return (<Loading speed={100} text="One Moment" />)
   }
 
-  if (props.scores[0] === props.scores[1]){
+  if (scores[0] === scores[1]){
     return (
       <MainContainer>
         <h1>It's a tie!</h1>
@@ -29,7 +29,7 @@ function Results (props) {
       </MainContainer>
     )
   }
-  
+
   const winningIndex = scores[0] > scores[1] ? 0 : 1;
   const losingIndex = winningIndex === 0 ? 1 : 0;
 
@@ -38,10 +38,10 @@ function Results (props) {
       <h1>Results</h1>
       <div className="col-sm-8 col-sm-offset-2">
         <UserDetailsWrapper header="Winner">
-          <UserDetails score={props.scores[winningIndex]} info={props.playersInfo[winningIndex]}/>
+          <UserDetails score={scores[winningIndex]} info={playersInfo[winningIndex]}/>
         </UserDetailsWrapper>
         <UserDetailsWrapper header="Looser">
-          <UserDetails score={props.scores[loosingIndex]} info={props.playersInfo[loosingIndex]}/>
+          <UserDetails score={scores[loosingIndex]} info={playersInfo[loosingIndex]}/>
         </UserDetailsWrapper>
       </div>
       <StartOver />
