@@ -1,11 +1,13 @@
-# Github Battle
+# About
 
-Battle between two Github profiles for a winner. My first React app. It fetches and scores profile data from Github by taking into account total stars from owned projects and number of followers. 
+Battle between two Github profiles for a winner. My first React app. It fetches and scores profile data from Github by taking into account total stars from owned projects and number of followers.
 
 Implemented React components in ES5, NPM, Babel, and Webpack. Organized components in two: stateless function components and containers. For former took in data and returned dumb views. The latter dealt with bus logic, states from child view components. Migrated project to ES6.
 
 # Install
 
+* `git clone git@github.com:guilsa/javascript-stuff.git`
+* `cd javascript-stuff/react-github-battle` 
 * `npm install`
 * `npm run start`
 * open localhost:8080
