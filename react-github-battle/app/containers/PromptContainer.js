@@ -1,7 +1,7 @@
 import React from 'react'
 import Prompt from '../components/Prompt'
 
-var PromptContainer = React.createClass({
+const PromptContainer = React.createClass({
   contextTypes: {
     router: React.PropTypes.object.isRequired
   },
@@ -17,7 +17,7 @@ var PromptContainer = React.createClass({
   },
   handleSubmitUser: function (e) {
     e.preventDefault();
-    var username = this.state.username;
+    const username = this.state.username;
     this.setState({
       username: ''
     });

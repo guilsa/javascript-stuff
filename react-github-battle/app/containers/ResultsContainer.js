@@ -2,7 +2,7 @@ import React from 'react'
 import Results from '../components/Results'
 import { battle } from '../utils/githubHelpers'
 
-var ResultsContainer = React.createClass({
+const ResultsContainer = React.createClass({
   getInitialState: function () {
     return {
       isLoading: true,

@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react'
 
-var styles = {
+const styles = {
   container: {
     position: 'fixed',
     left: 0,
@@ -17,7 +17,7 @@ var styles = {
   }
 };
 
-var Loading = React.createClass({
+const Loading = React.createClass({
   propTypes: {
     text: PropTypes.string,
     speed: PropTypes.number
@@ -35,7 +35,7 @@ var Loading = React.createClass({
     }
   },
   componentDidMount: function () {
-    var stopper = this.originaltext + "...";
+    const stopper = this.originaltext + "...";
     this.interval = setInterval(function(){
       if (this.state.text === stopper) {
         this.setState({
