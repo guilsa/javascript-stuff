@@ -6,17 +6,17 @@ const ConfirmBattleContainer = React.createClass({
   contextTypes: {
      router: React.PropTypes.object.isRequired
   },
-  getInitialState: function () {
+  getInitialState () {
     console.log('getInitialState');
     return {
       isLoading: true,
       playersInfo: []
     }
   },
-  componentWillMount: function () {
+  componentWillMount () {
     console.log('componentWillMount');
   },
-  componentDidMount: function () {
+  componentDidMount () {
     const query = this.props.location.query;
     getPlayersInfo([query.playerOne, query.playerTwo])
     .then(function (players) {
@@ -26,13 +26,13 @@ const ConfirmBattleContainer = React.createClass({
       })
     }.bind(this))
   },
-  componentWillReceiveProps: function () {
+  componentWillReceiveProps () {
     console.log('componentWillReceiveProps');
   },
-  componentWillUnmount: function () {
+  componentWillUnmount () {
     console.log('componentWillUnmount');
   },
-  handleInitiateBattle: function () {
+  handleInitiateBattle () {
     this.context.router.push({
       pathname: '/results',
       state: {
@@ -40,7 +40,7 @@ const ConfirmBattleContainer = React.createClass({
       }
     })
   },
-  render: function(){
+  render () {
     return (
       <ConfirmBattle
         isLoading={this.state.isLoading}

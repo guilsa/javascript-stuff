@@ -4,7 +4,7 @@ import { transparentBg } from '../styles'
 import MainContainer from './MainContainer'
 
 var Home = React.createClass({
-  render: function(){
+  render () {
     return(
       <MainContainer>
         <h1>Github Battle</h1>
