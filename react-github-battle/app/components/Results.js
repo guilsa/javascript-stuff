@@ -41,7 +41,7 @@ function Results ({isLoading, scores, playersInfo}) {
           <UserDetails score={scores[winningIndex]} info={playersInfo[winningIndex]}/>
         </UserDetailsWrapper>
         <UserDetailsWrapper header="Looser">
-          <UserDetails score={scores[loosingIndex]} info={playersInfo[loosingIndex]}/>
+          <UserDetails score={scores[losingIndex]} info={playersInfo[losingIndex]}/>
         </UserDetailsWrapper>
       </div>
       <StartOver />
