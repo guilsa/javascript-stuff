@@ -4,6 +4,7 @@ Very simple programs to explore potential solutions or figure out answers to tou
 
 ## Projects
 
+* [RequireJS](/require-js-hello-world): learn how to implement Bower, RequireJS and Knockout
 * [Twitter node test](/twitter-node-test): playing around with twitter api for node, testing how to follow and unfollow people.
 * [Ember woodland](/ember-woodland): code along wiht the Codeschool Ember course.
 * [React router tutorial](/react-router-tutorial): official [React routes tutorial](https://github.com/reactjs/react-router-tutorial/blob/start/lessons/01-setting-up.md).

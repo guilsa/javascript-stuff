@@ -1,0 +1,23 @@
+{
+  "name": "require-js-hello-world",
+  "authors": [
+    "guilsa <guilsa001@gmail.com>"
+  ],
+  "description": "implement requirejs to ko's tutorials",
+  "main": "path/to/main.css",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "libs",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "^2.3.1",
+    "knockout": "knockout.js#^3.1.0"
+  }
+}
