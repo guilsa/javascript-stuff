@@ -1,6 +1,6 @@
 # About
 
-Very simple programs to explore potential solutions or figure out answers to tough technical or design problems.
+Very simple apps to explore potential solutions or figure out answers to tough technical or design problems.
 
 ## Projects
 
